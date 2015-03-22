@@ -13,10 +13,28 @@ namespace esiv2.net.Controllers
             return View();
         }
 
+        public ActionResult Events()
+        {
+            return View();
+        }
+
+        public ActionResult Games()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            return View();
+        }
 
+        public ActionResult Sponsors()
+        {
+            return View();
+        }
+
+        public ActionResult Join()
+        {
             return View();
         }
 
