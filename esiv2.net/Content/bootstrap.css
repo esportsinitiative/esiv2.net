@@ -158,6 +158,15 @@ legend {
   border: 0;
 }
 
+button {
+  overflow: visible;
+  height: 50px;
+  background-color: #009933;
+  border-style: none;
+  text-align: center;
+  margin: 10px;
+}
+
 button,
 input,
 select,
@@ -312,10 +321,10 @@ html {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #222;
 }
 
 input,
@@ -341,7 +350,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #009933;
   text-decoration: underline;
 }
 
