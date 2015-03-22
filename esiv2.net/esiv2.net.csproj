@@ -181,8 +181,8 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\CSS\bootstrap.css" />
-    <Content Include="Content\CSS\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Images\Cooperate\Fall 2014.jpg" />
     <Content Include="Content\Images\Logos\csgo_logo_transparent.png" />
     <Content Include="Content\Images\Logos\dota_2_logo_transparent.png" />
@@ -218,7 +218,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\CSS\Site.css" />
+    <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Properties\PublishProfiles\esiv2net.pubxml" />
