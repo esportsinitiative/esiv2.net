@@ -1,7 +1,30 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Games";
 }
 
-<h2>Games</h2>
+<section>
+    <div class="background-color-dark-gray container-fluid">
+        <div class="nav-spacer"></div>
 
+        <div class="container row center text-center">
+            <div class="title-text">
+                <h1>Games</h1>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 show-content">
+                <p class="marginz">ESI encourages gamers to play those titles and genres which they enjoy. However, due to the popularity of specific titles we hold events specifically for the three games listed below. If you believe we should hold a tournament for a specific game that is not on the list below please let us know at a meeting of through the Feedback link.</p>
+            </div>
+        </div>
+
+        <div class="container row center marginz"> <!-- Fix Picture Scaling on Non-FireFox -->
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                @Html.Image("Logos/league_of_legends_logo_transparent.png", "League of Legends")
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                @Html.Image("Logos/dota_2_logo_transparent.png", "Dota 2")
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                @Html.Image("Logos/smash_bros_logo.png", "Smash Brothers")
+            </div>
+        </div>
+    </div>
+</section>

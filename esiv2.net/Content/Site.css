@@ -17,6 +17,10 @@
     margin-left: auto;
 }
 
+img {
+    width: -moz-available;
+}
+
 .marginz {
     margin: 20px;
 }
