@@ -1,24 +1,161 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿/*
+ *	Dark Green: #009933;
+ *	Dark Gray: #54544F;
+ *
+ *	Light Green: #33cc33;
+ *	Light Gray: #8F8E87;
+ */
+.marginz {
+	margin: 20px;
+	text
+}
+.marginz-bottom {
+	margin-bottom: 20px;
+}
+.marginz-top {
+	margin-top: 20px;
+}
+.padding {
+	padding: 20px;
+}
+.big-button {
+	font-size: 25px;
+	padding-right: 10px;
+}
+a > button > .big-button {
+	color: #333;
+}
+a:hover > button > .big-button {
+	color: #333;
+}
+a > button {
+	border-color: #009933;
+	border-style: solid;
+	border-width: 0px 0px 2px;
+}
+a:hover > button {
+	background-color: #00BF40;
+	border-color: #fff;
+	border-style: solid;
+	border-width: 0px 0px 2px;
+}
+.title-text {
+	text-indent: 20px;
+	color: #fff;
+}
+.title-box {
+	border-color: #fff;
+	border-style: solid;
+	border-width: 0px 0px 2px;
+}
+.aboutus-text {
+	font-size: 20px;
+	color: #9D9D9D;
+}
+.black-quote {
+	color: #333;
+	font-size: 30px;
+	font-style: times-new-roman;
+}
+.green-quote {
+	color: #009933;
+	font-size: 30px;
+	font-style: times-new-roman;
+}
+.join-pic > div {
+	margin-bottom: 25px;
+}
+.show-content {
+	background-color: #222;
+	color: #fff;
+	border-color: #fff;
+	border-style: solid;
+	border-width: 2px 0px 0px;
+}
+.show-content > img {
+	padding: 20px;
+}
+.nav-footer > li > a {
+	color: #9D9D9D;
+	padding: 3px 15px;
+}
+.nav-footer > li > a:hover {
+	color: #000;
+	text-decoration: bold;
+}
+footer {
+	color: #9D9D9D;
+}
+footer > div {
+	padding: 15px;
+	background-color: #222;
+}
+.nav-spacer {
+	height: 100px;
+	overflow: auto;
+}
+.center {}
+@media (min-width: 768px) {
+	.center {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.nav-spacer {
+		height: 70px;
+		overflow: auto;
+	}
+}
+@media (min-width: 992px) {
+	.center {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.nav-spacer {
+		height: 70px;
+		overflow: auto;
+	}
+}
+@media (min-width: 1200px) {
+	.center {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.nav-spacer {
+		height: 70px;
+		overflow: auto;
+	}
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+
+.background-color-dark-green {
+	background-color: #009933;
+}
+.background-color-dark-gray {
+	background-color: #54544F;
+}
+.background-color-light-green {
+	background-color: #33cc33;
+}
+.background-color-light-gray {
+	background-color: #8F8E87;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+.text-color-dark-green {
+	color: #009933;
+}
+.text-color-dark-gray {
+	color: #54544F;
+}
+.text-color-light-green {
+	color: #33cc33;
+}
+.text-color-light-gray {
+	color: #8F8E87;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+.boader-color-dark-green {
+	border-color: #009933;	
+}
+.boader-color-light-green {
+	border-color: #33cc33;
 }
