@@ -19,7 +19,6 @@
 
 .marginz {
     margin: 20px;
-    text;
 }
 
 .marginz-bottom {
@@ -34,26 +33,24 @@
     padding: 20px;
 }
 
-.big-button {
+.div-button {
+    overflow: visible;
+    height: 50px;
+    background-color: #009933;
+    text-align: center;
+    margin: 10px;
     font-size: 25px;
     padding-right: 10px;
-}
-
-a > button > .big-button {
-    color: #333;
-}
-
-a:hover > button > .big-button {
-    color: #333;
-}
-
-a > button {
     border-color: #009933;
     border-style: solid;
     border-width: 0px 0px 2px;
 }
 
-a:hover > button {
+.div-button > a {
+    color: #333;
+}
+
+.div-button > a:hover {
     background-color: #00BF40;
     border-color: #fff;
     border-style: solid;
@@ -79,13 +76,13 @@ a:hover > button {
 .black-quote {
     color: #333;
     font-size: 30px;
-    font-style: times-new-roman;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .green-quote {
     color: #009933;
     font-size: 30px;
-    font-style: times-new-roman;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .join-pic > div {
