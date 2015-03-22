@@ -324,6 +324,7 @@ body {
   font-size: 18px;
   line-height: 1.428571429;
   color: #333333;
+  background-color: #222;
 }
 
 input,
@@ -3826,7 +3827,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 10px 10px;
+  font-size: 20px;
 }
 
 .nav > li > a:hover,
@@ -4528,7 +4530,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #00862D;
+  color: #009933;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
