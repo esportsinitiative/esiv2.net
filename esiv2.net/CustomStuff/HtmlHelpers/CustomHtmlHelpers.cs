@@ -8,20 +8,31 @@ namespace esiv2.net.CustomStuff.HtmlHelpers
 {
     public static class CustomHtmlHelpers
     {
-        public static IHtmlString Image(this HtmlHelper helper, string src, string alt)
+        private static String imagePath(String src)
+        {
+            return "~/Content/images/" + src;
+        }
+
+        public static IHtmlString Image(this HtmlHelper helper, String src, String alt)
         {
             TagBuilder tb = new TagBuilder("img");
-            tb.Attributes.Add("src", VirtualPathUtility.ToAbsolute("~/Content/Images/" + src));
-            tb.Attributes.Add("alt", alt); // TODO - Fix picture Scaling
+            tb.Attributes.Add("src", VirtualPathUtility.ToAbsolute(imagePath(src)));
+            tb.Attributes.Add("alt", alt);
             return new MvcHtmlString(tb.ToString(TagRenderMode.SelfClosing));
         }
 
-        public static IHtmlString Image(this HtmlHelper helper, string src, string alt, string attribute, string atrValue )
+        public static IHtmlString Image(this HtmlHelper helper, String src, String alt, String[] properties)
         {
             TagBuilder tb = new TagBuilder("img");
-            tb.Attributes.Add("src", VirtualPathUtility.ToAbsolute("~/Content/Images/" + src));
+            tb.Attributes.Add("src", VirtualPathUtility.ToAbsolute(imagePath(src)));
             tb.Attributes.Add("alt", alt);
-            tb.Attributes.Add(attribute, atrValue);
+
+            foreach (String property in properties)
+            {
+                String[] splitProperty = property.Split(new char[] { ':' });
+                tb.Attributes.Add(splitProperty[0], splitProperty[1]);
+            }
+
             return new MvcHtmlString(tb.ToString(TagRenderMode.SelfClosing));
         }
     }
