@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eSports Initiative - @ViewBag.Title </title>
     @Styles.Render("~/Content/css")
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      @Scripts.Render("~/bundles/oldIEBrowsersSupport")
+    <![endif]-->
+
     @Scripts.Render("~/bundles/modernizr")
 
     <link rel="shortcut icon" href="~/Content/Images/Logos/esi_logo.ico">
@@ -19,7 +25,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="/" id="logo" class="navbar-brand">
+                    <a href="/" id="logo" class="navbar-brand"> <!-- TODO: Switch to Html.ActionLink() -->
                         @Html.Image("Logos/esi_logo_full_name.png", "eSports Initiative Logo", new String[] { "height:43px", "width:417px" })
                     </a>
                 </div>
@@ -35,7 +41,7 @@
 
     <div>
         @RenderBody()
-    </div>  
+    </div>
 
     <footer>
         <div class="container-fluid">

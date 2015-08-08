@@ -74,23 +74,25 @@
                 <div class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 marginz-bottom">
                     <p>The eSports Initiative (ESI) is first and foremost passionate about gaming.  We hold casual and competitive events to expand the gaming community at The Ohio State University and throughout Columbus. Our goal is to use gaming as a means to directly impact our community. Learn more about our Events and main Games by visiting their respective pages. If you would like more information about ESI proceed to About Us.</p>
                 </div>
-
+            </div>
+            <div class="row">
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-3 ">
                     <div class="marginz-bottom div-button">
-                        @Html.ActionLink("Events", "Events", "Home")
+                        @Html.ActionLink("Events", "Events", "Home", new { @class = "text-center big-button" })
                     </div>
                 </div>
 
-                <a href="./games.html">
-                    <button class="col-lg-2 col-md-2 col-sm-2 col-xs-6 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-xs-offset-3 marginz-bottom">
-                        <span class="text-center big-button">Games</span>
-                    </button>
-                </a>
-                <a href="./about-us.html">
-                    <button class="col-lg-2 col-md-2 col-sm-2 col-xs-6 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-xs-offset-3 marginz-bottom">
-                        <span class="text-center big-button">About Us</span>
-                    </button>
-                </a>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-3 ">
+                    <div class="marginz-bottom div-button">
+                        @Html.ActionLink("Games", "Games", "Home", new { @class = "text-center big-button" })
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-3 ">
+                    <div class="marginz-bottom div-button">
+                        @Html.ActionLink("About Us", "About", "Home", new { @class = "text-center big-button" })
+                    </div>
+                </div>
             </div>
         </div>
     </div>
