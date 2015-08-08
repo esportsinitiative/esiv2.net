@@ -1,0 +1,39 @@
+/*
+ *	Dark Green: #009933;
+ *	Dark Gray: #54544F;
+ *	
+ *	Light Green: #33cc33;
+ *	Light Gray: #8F8E87;
+ */
+.background-color-dark-green {
+	background-color: #009933;
+}
+.background-color-dark-gray {
+	background-color: #54544F;
+}
+.background-color-light-green {
+	background-color: #33cc33;
+}
+.background-color-light-gray {
+	background-color: #8F8E87;
+}
+
+.text-color-dark-green {
+	color: #009933;
+}
+.text-color-dark-gray {
+	color: #54544F;
+}
+.text-color-light-green {
+	color: #33cc33;
+}
+.text-color-light-gray {
+	color: #8F8E87;
+}
+
+.boader-color-dark-green {
+	border-color: #009933;	
+}
+.boader-color-light-green {
+	border-color: #33cc33;
+}
