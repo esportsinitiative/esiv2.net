@@ -26,9 +26,7 @@ namespace esiv2.net
             bundles.Add(new StyleBundle("~/Content/css").Include(
                         "~/Content/bootstrap.css",
                         "~/Content/bootstrap-theme.css",
-                        "~/Content/esi-color.css",
-                        "~/Content/esi-styles.css",
-                        "~/Content/site.css",
+                        "~/Content/Site.css",
                         "~/Content/bootstrap-responsive.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/oldIEBrowsersSupport").Include(

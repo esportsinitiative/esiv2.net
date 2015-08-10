@@ -1,7 +1,7 @@
 ﻿/*
  *	Dark Green: #009933;
  *	Dark Gray: #54544F;
- *
+ *	
  *	Light Green: #33cc33;
  *	Light Gray: #8F8E87;
  */
@@ -10,11 +10,26 @@
     padding-right: 15px;
 }
 
+.aboutus-text {
+    font-size: 20px;
+    padding: 20px 0px;
+    color: #9D9D9D;
+}
+
+.aboutus-box {
+    background-color: #222;
+    overflow: auto;
+}
+
 .container-fluid {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.logo-image {
+    padding: 0px !important;
 }
 
 img {
@@ -50,16 +65,16 @@ img {
     border-width: 0px 0px 2px;
 }
 
-.div-button > a {
-    color: #333;
-}
+    .div-button > a {
+        color: #333;
+    }
 
-.div-button > a:hover {
-    background-color: #00BF40;
-    border-color: #fff;
-    border-style: solid;
-    border-width: 0px 0px 2px;
-}
+        .div-button > a:hover {
+            background-color: #00BF40;
+            border-color: #fff;
+            border-style: solid;
+            border-width: 0px 0px 2px;
+        }
 
 .title-text {
     text-indent: 20px;
@@ -121,6 +136,7 @@ footer {
 
     footer > div {
         padding: 15px;
+        background-color: #222;
     }
 
 .nav-spacer {
@@ -129,11 +145,13 @@ footer {
 }
 
 .center {
-    margin-left: auto;
-    margin-right: auto;
 }
 
 @media (min-width: 768px) {
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .nav-spacer {
         height: 70px;
@@ -142,6 +160,11 @@ footer {
 }
 
 @media (min-width: 992px) {
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .nav-spacer {
         height: 70px;
         overflow: auto;
@@ -149,12 +172,16 @@ footer {
 }
 
 @media (min-width: 1200px) {
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .nav-spacer {
         height: 70px;
         overflow: auto;
     }
 }
-
 
 .background-color-dark-green {
     background-color: #009933;
