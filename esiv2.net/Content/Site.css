@@ -91,6 +91,14 @@ a > .div-button {
     border-width: 0px 0px 2px;
 }
 
+.twitter-box-content {
+    background-color: #080808;
+}
+
+.twitter-box-content > iframe {
+    height: 483px !important;
+}
+
 .aboutus-text {
     font-size: 20px;
     color: #9D9D9D;
