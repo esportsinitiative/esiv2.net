@@ -76,22 +76,18 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-3 ">
-                    <div class="marginz-bottom div-button">
-                        @Html.ActionLink("Events", "Events", "Home", new { @class = "text-center big-button" })
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-3 ">
-                    <div class="marginz-bottom div-button">
-                        @Html.ActionLink("Games", "Games", "Home", new { @class = "text-center big-button" })
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-3 ">
-                    <div class="marginz-bottom div-button">
-                        @Html.ActionLink("About Us", "About", "Home", new { @class = "text-center big-button" })
-                    </div>
+                <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-3 row">
+                    <a href='@Url.Action("Events", "Home")'>
+                        <div class="div-button col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                            Events
+                        </div>
+                    </a>
+                    <a href='@Url.Action("Games", "Home")'>
+                        <div class="div-button col-lg-2 col-md-2 col-sm-2 col-xs-6">Games</div>
+                    </a>
+                    <a href='@Url.Action("About", "Home")'>
+                        <div class="div-button col-lg-2 col-md-2 col-sm-2 col-xs-6">About Us</div>
+                    </a>
                 </div>
             </div>
         </div>

@@ -5,6 +5,11 @@
  *	Light Green: #33cc33;
  *	Light Gray: #8F8E87;
  */
+ a,
+ a:hover {
+    text-decoration: none;
+ }
+ 
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
@@ -53,28 +58,27 @@ img {
 }
 
 .div-button {
-    overflow: visible;
-    height: 50px;
-    background-color: #009933;
     text-align: center;
-    margin: 10px;
+    padding: 5px 20px;
+    margin: 5px 5px 20px;
     font-size: 25px;
-    padding-right: 10px;
+    background-color: #009933;
     border-color: #009933;
     border-style: solid;
     border-width: 0px 0px 2px;
 }
 
-    .div-button > a {
-        color: #333;
-    }
+a > .div-button {
+    color: #000000;
+}
 
-        .div-button > a:hover {
-            background-color: #00BF40;
-            border-color: #fff;
-            border-style: solid;
-            border-width: 0px 0px 2px;
-        }
+    a:hover > .div-button {
+        color: #000000;
+        background-color: #00BF40;
+        border-color: #fff;
+        border-style: solid;
+        border-width: 0px 0px 2px;
+    }
 
 .title-text {
     text-indent: 20px;
