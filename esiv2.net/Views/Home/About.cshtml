@@ -1,7 +1,99 @@
 ﻿@{
     ViewBag.Title = "About";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+<section>
+    <div class="background-color-dark-gray container-fluid">
+        <div class="nav-spacer"></div>
+        <div class="container row center-block marginz-bottom">
+            <div class="title-text white-box-boarder">
+                <h1>About Us</h1>
+            </div>
+            <div class="dark-content-box">
+                <div class="col-lg-8 col-md-8 col-sm-8">
+                    <div class="mission-statement">
+                        <span>"</span>
+                        E-Sports Initiative works to bring together recreational and competitive video game players, as well as the digital media industry, to raise money for local and national causes. We work to beneficially impact the community while maintaining a positive image of the industry and its consumers. More directly, we hold video game events and tournaments to raise funds for charity and we volunteer in the local Columbus community all while improving the Midwest eSports scene.
+                        <span>" - ESI Mission Statement</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    @Html.Image("Logos/esi_logo_md_transparent_600.png", "ESI Jalapeno Logo", new string[] { "width:100%" })
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="background-color-light-gray container-fluid">
+        <div class="container row center-block marginz-bottom">
+            <div class="title-text white-box-boarder">
+                <h1>Executive Committee</h1>
+            </div>
+            <div class="dark-content-box executive-committee">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>President</td>
+                                <td>Dylan Fraley</td>
+                            </tr>
+                            <tr>
+                                <td>Vice President</td>
+                                <td>Robin Bolterman</td>
+                            </tr>
+                            <tr>
+                                <td>Treasurer</td>
+                                <td>Dechannon Gilbert</td>
+                            </tr>
+                            <tr>
+                                <td>Event Chair</td>
+                                <td>Mark Ebert</td>
+                            </tr>
+                            <tr>
+                                <td>Marketing Chair</td>
+                                <td>Chris Evans</td>
+                            </tr>
+                            <tr>
+                                <td>IT Chair</td>
+                                <td>David Soller</td>
+                            </tr>
+                            <tr>
+                                <td>Design Chair</td>
+                                <td>Derek Spinell</td>
+                            </tr>
+                            <tr>
+                                <td>League Coordinator</td>
+                                <td>Albert Ma</td>
+                            </tr>
+                            <tr>
+                                <td>League Team Coordinator</td>
+                                <td>Kentaro Ogawa</td>
+                            </tr>
+                            <tr>
+                                <td>Advisor & Board Chair</td>
+                                <td>Deborah Grzybowski</td>
+                            </tr>
+                            <tr>
+                                <td>Board Members</td>
+                                <td>
+                                    <div style="padding-top: 0px">Ray Tan</div>
+                                    <div>David Wu</div>
+                                    <div>Stephen Cassidy</div>
+                                    <div>Brett Hutton</div>
+                                    <div>Amar Karamali</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    @Html.Image("Corporate/Fall_2014.jpg", "2014-2015 Exec Team", new string[] { "width:100%" })
+
+                    <p style="text-align: center">Fall 2014-2015 Exec Team Diner</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
