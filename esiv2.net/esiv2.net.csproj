@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -182,48 +183,57 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\Images\Cooperate\Fall 2014.jpg" />
-    <Content Include="Content\Images\Logos\csgo_logo_transparent.png" />
-    <Content Include="Content\Images\Logos\dota_2_logo_transparent.png" />
-    <Content Include="Content\Images\Logos\esilogo-leaf-small.png" />
-    <Content Include="Content\Images\Logos\esi_logo.ico" />
-    <Content Include="Content\Images\Logos\esi_logo_full_name.png" />
-    <Content Include="Content\Images\Logos\esi_logo_large_transparent_1190.png" />
-    <Content Include="Content\Images\Logos\esi_logo_md_transparent_600.png" />
-    <Content Include="Content\Images\Logos\esi_logo_transparent.png" />
-    <Content Include="Content\Images\Logos\facebook_logo.png" />
-    <Content Include="Content\Images\Logos\fifa_logo_transparent.png" />
-    <Content Include="Content\Images\Logos\hearthstone_logo_transparent.png" />
-    <Content Include="Content\Images\Logos\league_of_legends_logo_transparent.png" />
-    <Content Include="Content\Images\Logos\logitech-g-logo.png" />
-    <Content Include="Content\Images\Logos\MLG-logo-feature.png" />
-    <Content Include="Content\Images\Logos\mlg_logo_transparent.png" />
-    <Content Include="Content\Images\Logos\mystery_transparent.png" />
-    <Content Include="Content\Images\Logos\shuffle_V_logo.png" />
-    <Content Include="Content\Images\Logos\smashboards_logo_transparent.png" />
-    <Content Include="Content\Images\Logos\smash_bros_logo.png" />
-    <Content Include="Content\Images\Logos\starcraft_2_logo_transparent.png" />
-    <Content Include="Content\Images\Logos\twitter_logo.png" />
-    <Content Include="Content\Images\Slideshows\Index\facecheck_1.jpg" />
-    <Content Include="Content\Images\Slideshows\Index\shuffleVI_1.jpg" />
-    <Content Include="Content\Images\Slideshows\Index\shuffleVI_2.jpg" />
-    <Content Include="Content\Images\Slideshows\Index\shuffleVI_3.jpg" />
-    <Content Include="Content\Images\Slideshows\Join\FaceCheck_1.jpg" />
-    <Content Include="Content\Images\Slideshows\Join\FaceCheck_2.jpg" />
-    <Content Include="Content\Images\Slideshows\Join\LANFeb21_1.jpg" />
-    <Content Include="Content\Images\Slideshows\Join\ODC_ExtraLife.jpg" />
-    <Content Include="Content\Images\Slideshows\Join\ShuffleV_1.jpg" />
-    <Content Include="Content\Images\Slideshows\Join\ShuffleV_2.jpg" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\images\Corporate\Fall_2014.jpg" />
+    <Content Include="Content\images\Logos\csgo_logo_transparent.png" />
+    <Content Include="Content\images\Logos\dota_2_logo_transparent.png" />
+    <Content Include="Content\images\Logos\esilogo-leaf-small.png" />
+    <Content Include="Content\images\Logos\esi_logo.ico" />
+    <Content Include="Content\images\Logos\esi_logo_full_name.png" />
+    <Content Include="Content\images\Logos\esi_logo_large_transparent_1190.png" />
+    <Content Include="Content\images\Logos\esi_logo_md_transparent_600.png" />
+    <Content Include="Content\images\Logos\esi_logo_transparent.png" />
+    <Content Include="Content\images\Logos\facebook_logo.png" />
+    <Content Include="Content\images\Logos\fifa_logo_transparent.png" />
+    <Content Include="Content\images\Logos\hearthstone_logo_transparent.png" />
+    <Content Include="Content\images\Logos\league_of_legends_logo_transparent.png" />
+    <Content Include="Content\images\Logos\logitech-g-logo.png" />
+    <Content Include="Content\images\Logos\MLG-logo-feature.png" />
+    <Content Include="Content\images\Logos\mlg_logo_transparent.png" />
+    <Content Include="Content\images\Logos\mystery_transparent.png" />
+    <Content Include="Content\images\Logos\shuffle_V_logo.png" />
+    <Content Include="Content\images\Logos\smashboards_logo_transparent.png" />
+    <Content Include="Content\images\Logos\smash_bros_logo.png" />
+    <Content Include="Content\images\Logos\starcraft_2_logo_transparent.png" />
+    <Content Include="Content\images\Logos\twitter_logo.png" />
+    <Content Include="Content\images\Slideshows\Index\facecheck_1.jpg" />
+    <Content Include="Content\images\Slideshows\Index\shuffleVI_1.jpg" />
+    <Content Include="Content\images\Slideshows\Index\shuffleVI_2.jpg" />
+    <Content Include="Content\images\Slideshows\Index\shuffleVI_3.jpg" />
+    <Content Include="Content\images\Slideshows\Join\FaceCheck_1.jpg" />
+    <Content Include="Content\images\Slideshows\Join\FaceCheck_2.jpg" />
+    <Content Include="Content\images\Slideshows\Join\LANFeb21_1.jpg" />
+    <Content Include="Content\images\Slideshows\Join\ODC_ExtraLife.jpg" />
+    <Content Include="Content\images\Slideshows\Join\ShuffleV_1.jpg" />
+    <Content Include="Content\images\Slideshows\Join\ShuffleV_2.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Properties\PublishProfiles\esiv2net.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\html5shiv.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -233,6 +243,8 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
@@ -275,15 +287,13 @@
     <Content Include="Views\Home\Games.cshtml" />
     <Content Include="Views\Home\Sponsors.cshtml" />
     <Content Include="Views\Home\Join.cshtml" />
+    <Content Include="Views\Shared\_html5shiv.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\Images\Events\" />
+    <Folder Include="Content\images\Events\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
