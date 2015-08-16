@@ -5,61 +5,59 @@
 <section>
     <div class="background-color-dark-gray container-fluid">
         <div class="nav-spacer"></div>
-        <div class="container row center marginz-bottom">
+        <div class="container row center-block marginz-bottom">
             <div class="col-lg-8 col-md-8 col-sm-8">
-                <div class="title-text title-box">
+                <div class="title-text white-box-boarder">
                     <h1>Announcements</h1>
                 </div>
-                <div class="title-box">
-                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        </ol>
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
 
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                @Html.Image("Slideshows/Index/facecheck_1.jpg", "...")
-                                <div class="carousel-caption">
-                                    On Campus LAN Events
-                                </div>
-                            </div>
-                            <div class="item">
-                                @Html.Image("Slideshows/Index/shuffleVI_1.jpg", "...")
-                                <div class="carousel-caption">
-                                    Shuffle VI
-                                </div>
-                            </div>
-                            <div class="item">
-                                @Html.Image("Slideshows/Index/shuffleVI_2.jpg", "...")
-                                <div class="carousel-caption">
-                                    Event Broadcasting
-                                </div>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            @Html.Image("Slideshows/Index/facecheck_1.jpg", "...")
+                            <div class="carousel-caption">
+                                On Campus LAN Events
                             </div>
                         </div>
-
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
+                        <div class="item">
+                            @Html.Image("Slideshows/Index/shuffleVI_1.jpg", "...")
+                            <div class="carousel-caption">
+                                Shuffle VI
+                            </div>
+                        </div>
+                        <div class="item">
+                            @Html.Image("Slideshows/Index/shuffleVI_2.jpg", "...")
+                            <div class="carousel-caption">
+                                Event Broadcasting
+                            </div>
+                        </div>
                     </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4">
-                <div class="title-text title-box">
+                <div class="title-text white-box-boarder">
                     <h1>Twitter Feed</h1>
                 </div>
-                <div class="center title-box twitter-box-content">
+                <div class="twitter-box-content">
                     <a class="twitter-timeline" href="https://twitter.com/ESI_OSU" data-widget-id="573910921267015680">Tweets by @@ESI_OSU</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
                 </div>
             </div>
         </div>
@@ -68,29 +66,35 @@
 
 <section>
     <div class="background-color-light-gray container-fluid">
-        <div class="container row center">
+        <div class="container row center-block marginz-bottom">
             <div class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2">
-                <div class="title-text">
-                    <h1 class="text-center">Are you a gamer?</h1>
+                <div class="row title-text">
+                    <h1 style="text-indent: 0px; text-align: center">Are you a gamer?</h1>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 marginz-bottom">
+                <div class="row marginz-bottom">
                     <p>The eSports Initiative (ESI) is first and foremost passionate about gaming.  We hold casual and competitive events to expand the gaming community at The Ohio State University and throughout Columbus. Our goal is to use gaming as a means to directly impact our community. Learn more about our Events and main Games by visiting their respective pages. If you would like more information about ESI proceed to About Us.</p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-3 row">
+                <div class="row">
                     <a href='@Url.Action("Events", "Home")'>
-                        <div class="div-button col-lg-2 col-md-2 col-sm-2 col-xs-6">
-                            Events
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                            <div class="div-button">
+                                Events
+                            </div>
                         </div>
                     </a>
                     <a href='@Url.Action("Games", "Home")'>
-                        <div class="div-button col-lg-2 col-md-2 col-sm-2 col-xs-6">Games</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                            <div class="div-button">
+                                Games
+                            </div>
+                        </div>
                     </a>
                     <a href='@Url.Action("About", "Home")'>
-                        <div class="div-button col-lg-2 col-md-2 col-sm-2 col-xs-6">About Us</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                            <div class="div-button">
+                                About Us
+                            </div>
+                        </div>
                     </a>
                 </div>
             </div>
