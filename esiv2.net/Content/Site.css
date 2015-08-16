@@ -82,6 +82,11 @@ img {
     margin: 20px;
 }
 
+.marginz-vertical {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .marginz-bottom {
     margin-bottom: 20px;
 }
