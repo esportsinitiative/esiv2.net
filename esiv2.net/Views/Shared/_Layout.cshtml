@@ -4,12 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eSports Initiative - @ViewBag.Title </title>
-    @Styles.Render("~/Content/css")
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      @Scripts.Render("~/bundles/oldIEBrowsersSupport")
-    <![endif]-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    @Styles.Render("~/Content/css")
 
     @Scripts.Render("~/bundles/modernizr")
 
@@ -51,25 +48,20 @@
                         @Html.Partial("_NavPartial")
                     </ul>
                 </div>
-                <div class="col-lg-8 col-md-8 col-sm-8 row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
-                        <div class="row">
-                            <h3 class="text-center">Follow Us</h3>
-
-                            <div class="col-lg-3 col-md-4 col-sm-4 col-lg-offset-2 col-md-offset-1 col-sm-offset-1">
-                                <a href="https://www.facebook.com/esportsinitiative">
-                                    @Html.Image("Logos/facebook_logo.png", "Facebook Link")
-                                </a>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-sm-4 col-lg-offset-2 col-md-offset-2 col-sm-offset-2">
-                                <a href="https://twitter.com/ESI_OSU">
-                                    @Html.Image("Logos/twitter_logo.png", "Twitter Link")
-                                </a>
-                            </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 row">
+                    <div>
+                        <div class="footer-text">
+                            <span>Follow Us</span>
+                            <a href="https://www.facebook.com/esportsinitiative">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                            <a href="https://twitter.com/ESI_OSU">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
                         </div>
-
-                        <br>
-                        <p class="text-center">2011-2015 &copy; The eSports Initiative</p>
+                        <div>
+                            <span>2011-2015 &copy; The eSports Initiative</span>
+                        </div>
                     </div>
                 </div>
             </div>

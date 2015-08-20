@@ -38,7 +38,7 @@ a:hover {
     overflow: hidden;
     padding: 10px;
     background-color: #222;
-    color: #9D9D9D
+    color: #9D9D9D;
 }
 
 .mission-statement {
@@ -63,6 +63,10 @@ a:hover {
     color: #9D9D9D;
 }
 
+.footer-text {
+    font-size: 40px;
+}
+
 .container-fluid {
     padding-right: 15px;
     padding-left: 15px;
@@ -72,10 +76,6 @@ a:hover {
 
 .logo-image {
     padding: 0px !important;
-}
-
-img {
-    width: -moz-available;
 }
 
 .marginz {
