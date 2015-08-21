@@ -34,6 +34,22 @@ a:hover {
             padding-bottom: 5px;
         }
 
+.schedule-text {
+    width: 100%;
+}
+
+    .schedule-text tr:hover {
+        background-color: #fff;
+    }
+
+    .schedule-text td {
+        padding: 5px;
+    }
+
+        .schedule-text td:last-child {
+            text-align: right;
+        }
+
 .dark-content-box {
     overflow: hidden;
     padding: 10px;
