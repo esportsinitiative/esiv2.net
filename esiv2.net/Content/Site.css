@@ -5,6 +5,18 @@
  *	Light Green: #33cc33;
  *	Light Gray: #8F8E87;
  */
+body {
+    text-size-adjust: 18px;
+}
+
+a {
+    color: #00862D;
+}
+
+a:hover {
+    color: #009933;
+}
+
 a,
 a:hover {
     text-decoration: none;
