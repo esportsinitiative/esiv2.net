@@ -57,6 +57,10 @@ a:hover {
     color: #9D9D9D;
 }
 
+.games img {
+    width: 100%;
+}
+
 .mission-statement {
     font-size: 20px;
     padding: 0px 5%;
