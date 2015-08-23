@@ -28,10 +28,6 @@ namespace esiv2.net
                         "~/Content/bootstrap-theme.css",
                         "~/Content/Site.css",
                         "~/Content/bootstrap-responsive.css"));
-
-            bundles.Add(new ScriptBundle("~/bundles/oldIEBrowsersSupport").Include(
-                        "~/Scripts/respond.js",
-                        "~/Scripts/html5shiv.js"));
         }
     }
 }
