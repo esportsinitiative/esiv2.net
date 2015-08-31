@@ -197,7 +197,6 @@
     <Content Include="Content\images\Logos\esi_logo_large_transparent_1190.png" />
     <Content Include="Content\images\Logos\esi_logo_md_transparent_600.png" />
     <Content Include="Content\images\Logos\esi_logo_transparent.png" />
-    <Content Include="Content\images\Logos\facebook_logo.png" />
     <Content Include="Content\images\Logos\fifa_logo_transparent.png" />
     <Content Include="Content\images\Logos\hearthstone_logo_transparent.png" />
     <Content Include="Content\images\Logos\league_of_legends_logo_transparent.png" />
@@ -209,7 +208,6 @@
     <Content Include="Content\images\Logos\smashboards_logo_transparent.png" />
     <Content Include="Content\images\Logos\smash_bros_logo.png" />
     <Content Include="Content\images\Logos\starcraft_2_logo_transparent.png" />
-    <Content Include="Content\images\Logos\twitter_logo.png" />
     <Content Include="Content\images\Slideshows\Index\facecheck_1.jpg" />
     <Content Include="Content\images\Slideshows\Index\shuffleVI_1.jpg" />
     <Content Include="Content\images\Slideshows\Index\shuffleVI_2.jpg" />
