@@ -187,6 +187,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\Events\2015-2016_Flyers\Autumn_1st_LAN.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\images\Corporate\Fall_2014.jpg" />
     <Content Include="Content\images\Logos\csgo_logo_transparent.png" />
@@ -287,7 +288,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\images\Events\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
