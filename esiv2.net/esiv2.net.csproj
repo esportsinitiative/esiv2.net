@@ -194,12 +194,8 @@
     <Content Include="Content\images\Corporate\Fall_2014.jpg" />
     <Content Include="Content\images\Logos\csgo_logo_transparent.png" />
     <Content Include="Content\images\Logos\dota_2_logo_transparent.png" />
-    <Content Include="Content\images\Logos\esilogo-leaf-small.png" />
     <Content Include="Content\images\Logos\esi_logo.ico" />
     <Content Include="Content\images\Logos\esi_logo_full_name.png" />
-    <Content Include="Content\images\Logos\esi_logo_large_transparent_1190.png" />
-    <Content Include="Content\images\Logos\esi_logo_md_transparent_600.png" />
-    <Content Include="Content\images\Logos\esi_logo_transparent.png" />
     <Content Include="Content\images\Logos\fifa_logo_transparent.png" />
     <Content Include="Content\images\Logos\hearthstone_logo_transparent.png" />
     <Content Include="Content\images\Logos\league_of_legends_logo_transparent.png" />
