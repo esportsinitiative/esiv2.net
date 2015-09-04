@@ -9,6 +9,10 @@ body {
     font-size: 18px;
 }
 
+.navbar-inverse {
+    background-color: #b9b9b9 !important;
+}
+
 a {
     color: #00862D;
 }
@@ -65,8 +69,8 @@ a {
 .dark-content-box {
     overflow: hidden;
     padding: 10px;
-    background-color: #222;
-    color: #9D9D9D;
+    /*background-color: #222;*/
+    color: #54544F;
 }
 
 .games img {
@@ -113,6 +117,11 @@ a {
     margin: 20px;
 }
 
+.marginz-horizontal {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .marginz-vertical {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -127,26 +136,20 @@ a {
     padding: 5px 20px;
     font-size: 25px;
     background-color: #009933;
-    border-color: #009933;
-    border-style: solid;
-    border-width: 0px 0px 2px;
 }
 
 a .div-button {
-    color: #000000;
+    color: #fff;
 }
 
 a:hover .div-button {
-    color: #000000;
+    color: #fff;
     background-color: #00BF40;
-    border-color: #fff;
-    border-style: solid;
-    border-width: 0px 0px 2px;
 }
 
 .title-text {
     text-indent: 30px;
-    color: #fff;
+    color: #767672;
 }
 
 .white-box-boarder {
@@ -254,8 +257,8 @@ footer {
     background-color: #009933;
 }
 
-.background-color-dark-gray {
-    background-color: #54544F;
+.background-color-white {
+    background-color: #ffffff;
 }
 
 .background-color-light-green {
@@ -263,7 +266,7 @@ footer {
 }
 
 .background-color-light-gray {
-    background-color: #8F8E87;
+    background-color: #cdcdcd;
 }
 
 .text-color-dark-green {
@@ -280,12 +283,4 @@ footer {
 
 .text-color-light-gray {
     color: #8F8E87;
-}
-
-.boader-color-dark-green {
-    border-color: #009933;
-}
-
-.boader-color-light-green {
-    border-color: #33cc33;
 }
