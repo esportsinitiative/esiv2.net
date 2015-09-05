@@ -208,16 +208,6 @@ a:hover .div-button {
     font-size: 1.2em;
 }
 
-.nav-footer li a {
-    color: #9D9D9D;
-    padding: 3px 15px;
-}
-
-    .nav-footer li a:hover {
-        color: #000;
-        text-decoration: solid;
-    }
-
 footer {
     color: #9D9D9D;
 }
