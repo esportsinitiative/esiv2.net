@@ -182,9 +182,9 @@ a:hover .div-button {
 }
 
 .events .dark-content-box .row {
-    height: 175px;
+    overflow: hidden;
     padding: 10px 0px;
-    border-color: #fff;
+    border-color: #b9b9b9;
     border-style: solid;
     border-width: 0px 0px 1px;
 }
