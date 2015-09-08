@@ -195,14 +195,10 @@
     <Content Include="Content\images\Logos\csgo_logo_transparent.png" />
     <Content Include="Content\images\Logos\dota_2_logo_transparent.png" />
     <Content Include="Content\images\Logos\esi_logo.ico" />
-    <Content Include="Content\images\Logos\esi_logo_full_name.png" />
     <Content Include="Content\images\Logos\fifa_logo_transparent.png" />
     <Content Include="Content\images\Logos\hearthstone_logo_transparent.png" />
     <Content Include="Content\images\Logos\league_of_legends_logo_transparent.png" />
-    <Content Include="Content\images\Logos\logitech-g-logo.png" />
     <Content Include="Content\images\Logos\MLG-logo-feature.png" />
-    <Content Include="Content\images\Logos\mlg_logo_transparent.png" />
-    <Content Include="Content\images\Logos\mystery_transparent.png" />
     <Content Include="Content\images\Logos\shuffle_V_logo.png" />
     <Content Include="Content\images\Logos\smashboards_logo_transparent.png" />
     <Content Include="Content\images\Logos\smash_bros_logo.png" />
@@ -248,6 +244,7 @@
     </Content>
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
@@ -286,6 +283,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="CustomStuff\Events\" />
+    <Folder Include="Objects\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
