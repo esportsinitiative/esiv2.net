@@ -67,10 +67,9 @@ a {
             text-align: right;
         }
 
-.dark-content-box {
+.content-box {
     overflow: hidden;
     padding: 10px;
-    /*background-color: #222;*/
     color: #54544F;
 }
 
@@ -181,7 +180,7 @@ a:hover .div-button {
     margin-bottom: 25px;
 }
 
-.events .dark-content-box .row {
+.events .content-box .row {
     overflow: hidden;
     padding: 10px 0px;
     border-color: #b9b9b9;
