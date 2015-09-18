@@ -5,26 +5,37 @@
 
 <section class="background-color-white container-fluid">
     <div class="nav-spacer"></div>
-    <div class="container center-block">
-        <div class="row join-pic marginz">
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                @Html.Image("Slideshows/Join/ShuffleV_2.jpg", "ShuffleV", new string[] { "height:250px", "width:100%" })
+    <div class="container row center-block">
+        <div class="title-text white-box-boarder">
+            <h1>ESI Involvement</h1>
+        </div>
+        <div class="content-box row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                @Html.Image("Logos/esi_logo_leaf_large.png", "ESI Logo", new string[] { "width:100%" })
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                @Html.Image("Slideshows/Join/LANFeb21_1.jpg", "LAN Prizes", new string[] { "height:250px", "width:100%" })
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                @Html.Image("Slideshows/Join/FaceCheck_1.jpg", "FaceCheck 1", new string[] { "height:250px", "width:100%" })
-            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <p>ESI is first and foremost an organization of people who are passionate about gaming. We have members who love to play all sorts of casual and competitive games! If you love gaming – and you love the gaming community, this is a great place to meet new people and make new friends!</p>
 
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                @Html.Image("Slideshows/Join/ShuffleV_1.jpg", "ShuffleV", new string[] { "height:250px", "width:100%" })
+                <p>ESI also focuses on promoting eSports in the collegiate and public scene. We hold competitive and casual tournaments for games like League of Legends, DOTA 2, Super Smash Brothers, and much more. If you're into competition, or you just like to play games with your friends, ESI is the place for you!</p>
+
+                <p>The best way to find out what we are about is to come to an event or meeting. If you would like to reach out to us sooner feel free to send us an email!</p>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                @Html.Image("Slideshows/Join/ODC_ExtraLife.jpg", "ODC ExtraLife", new string[] { "height:250px", "width:100%" })
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                @Html.Image("Slideshows/Join/FaceCheck_2.jpg", "FaceCheck 1", new string[] { "height:250px", "width:100%" })
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <a href="https://www.facebook.com/groups/419171418251335/">
+                    <div class="div-button">
+                        Facebook
+                    </div>
+                </a>
+                <a href='@Url.Action("Events", "Home")'>
+                    <div class="div-button">
+                        Meetings
+                    </div>
+                </a>
+                <a href="mailto:esportsinitiative@gmail.com">
+                    <div class="div-button">
+                        Email
+                    </div>
+                </a>
             </div>
         </div>
     </div>
