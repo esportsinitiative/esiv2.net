@@ -26,21 +26,9 @@
                                     </ul>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                    <a href='@Url.Action("Join", "Home")'>
-                                        <div class="div-button">
-                                            Join Page
-                                        </div>
-                                    </a>
-                                    <a href="https://www.facebook.com/groups/419171418251335/">
-                                        <div class="div-button">
-                                            ESI Group
-                                        </div>
-                                    </a>
-                                    <a href="https://docs.google.com/spreadsheets/d/1ATMxvFGqjfeZvLc79_ZHx-YaCSkjARYJ71Hue-zQxos/edit?pref=2&pli=1#gid=304620613">
-                                        <div class="div-button">
-                                            Full List
-                                        </div>
-                                    </a>
+                                    @Html.DivButtonLink("Join Page", @Url.Action("Join", "Home"))
+                                    @Html.DivButtonLink("ESI Group", "https://www.facebook.com/groups/419171418251335/")
+                                    @Html.DivButtonLink("Full List", "https://docs.google.com/spreadsheets/d/1ATMxvFGqjfeZvLc79_ZHx-YaCSkjARYJ71Hue-zQxos/edit?pref=2&pli=1#gid=304620613")
                                 </div>
                             </div>
                             <div class="row">
@@ -57,11 +45,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                    <a href="https://www.facebook.com/events/912188162152423/">
-                                        <div class="div-button">
-                                            Event Page
-                                        </div>
-                                    </a>
+                                    @Html.DivButtonLink("Event Page", "https://www.facebook.com/events/912188162152423/")
                                 </div>
                             </div>
 
@@ -78,16 +62,8 @@
                                     </ul>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                    <a href="https://form.jotform.com/53334914298967">
-                                        <div class="div-button">
-                                            Tickets
-                                        </div>
-                                    </a>
-                                    <a href="https://www.facebook.com/events/551280695030647/">
-                                        <div class="div-button">
-                                            Event Page
-                                        </div>
-                                    </a>
+                                    @Html.DivButtonLink("Tickets", "https://form.jotform.com/53334914298967")
+                                    @Html.DivButtonLink("Event Page", "https://www.facebook.com/events/551280695030647/")
                                 </div>
                             </div>
                         </div>
@@ -135,16 +111,8 @@
                             </ul>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <a href="https://www.facebook.com/events/1636797633274779/1643806332573909/">
-                                <div class="div-button">
-                                    Event Page
-                                </div>
-                            </a>
-                            <a href="https://www.challonge.com/tournaments?utf8=✓&q=screw+it">
-                                <div class="div-button">
-                                    Results
-                                </div>
-                            </a>
+                            @Html.DivButtonLink("Event Page", "https://www.facebook.com/events/1636797633274779/1643806332573909/")
+                            @Html.DivButtonLink("Results", "https://www.challonge.com/tournaments?utf8=✓&q=screw+it")
                         </div>
                     </div>
                     <div class="row">
@@ -172,11 +140,7 @@
                             </ul>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <a href="https://www.facebook.com/events/1630239297255363/">
-                                <div class="div-button">
-                                    Event Page
-                                </div>
-                            </a>
+                            @Html.DivButtonLink("Event Page", "https://www.facebook.com/events/1630239297255363/")
                         </div>
                     </div>
                     <div class="row">
@@ -192,16 +156,8 @@
                             </ul>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <a href="https://www.facebook.com/events/1649134725345113/">
-                                <div class="div-button">
-                                    Event Page
-                                </div>
-                            </a>
-                            <a href="http://challonge.com/JSMS">
-                                <div class="div-button">
-                                    Results
-                                </div>
-                            </a>
+                            @Html.DivButtonLink("Event Page", "https://www.facebook.com/events/1649134725345113/")
+                            @Html.DivButtonLink("Results", "http://challonge.com/JSMS")
                         </div>
                     </div>
                     <div class="row">
