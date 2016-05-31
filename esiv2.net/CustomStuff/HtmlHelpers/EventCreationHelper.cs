@@ -24,5 +24,15 @@ namespace esiv2.net.CustomStuff.HtmlHelpers
 
             return new MvcHtmlString(tb.ToString(TagRenderMode.Normal));
         }
+
+        public static IHtmlString Link(this HtmlHelper helper, string name, string href)
+        {
+            // a
+            TagBuilder tb = new TagBuilder("a");
+            tb.Attributes.Add("href", href);
+            tb.InnerHtml = name;
+
+            return new MvcHtmlString(tb.ToString(TagRenderMode.Normal));
+        }
     }
 }
