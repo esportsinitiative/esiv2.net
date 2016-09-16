@@ -170,6 +170,20 @@ a:hover .div-button {
     color: #9D9D9D;
 }
 
+    .aboutus-quote > .quote-mark {
+        width: 5%;
+        padding: 5px;
+    }
+
+    .aboutus-quote > .quote-text {
+        width: 85%;
+    }
+
+.aboutus-quote > div {
+    height: 100%;
+    float: left;
+}
+
 .black-quote {
     color: #333;
     font-size: 30px;
