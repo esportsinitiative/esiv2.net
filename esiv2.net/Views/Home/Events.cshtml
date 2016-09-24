@@ -3,14 +3,14 @@
 }
 
 <section class="events">
-    <div class="background-color-white container-fluid">
+    <div class="background-color-white">
         <div class="nav-spacer"></div>
-        <div class="container row center-block">
+        <div class="container row container-fluid">
             <div class="col-lg-8 col-md-8 col-sm-8" style="margin-bottom: 20px">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="title-text white-box-boarder">
-                            <h1>Upcoming Events</h1>
+                            <h1>Events</h1>
                         </div>
                         <div class="content-box">
                             <div class="row">
@@ -20,15 +20,14 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <h2>Bi-Weekly ESI General Meetings</h2>
                                     <ul>
-                                        <li>Next: 2/14/2016</li>
-                                        <li>Ohio Union - Round Meeting Room</li>
+                                        <li>@Html.Link("Time & Room", "https://docs.google.com/spreadsheets/d/1ATMxvFGqjfeZvLc79_ZHx-YaCSkjARYJ71Hue-zQxos/edit#gid=304620613")</li>
                                         <li>Want to get involved? Come join us!</li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                                     @Html.DivButtonLink("Join Page", @Url.Action("Join", "Home"))
                                     @Html.DivButtonLink("ESI Group", "https://www.facebook.com/groups/419171418251335/")
-                                    @Html.DivButtonLink("Full List", "https://docs.google.com/spreadsheets/d/1ATMxvFGqjfeZvLc79_ZHx-YaCSkjARYJ71Hue-zQxos/edit?pref=2&pli=1#gid=304620613")
+                                    @Html.DivButtonLink("Full List", "https://docs.google.com/spreadsheets/d/1ATMxvFGqjfeZvLc79_ZHx-YaCSkjARYJ71Hue-zQxos/edit#gid=304620613")
                                 </div>
                             </div>
                             <div class="row">
@@ -36,18 +35,110 @@
                                     @Html.Image("Logos/smash_bros_logo.png", "Smash", new string[] { "width:100%" })
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <h2>Bi-Weekly OSU Smash & Grab</h2>
+                                    <h2>Bi-Weekly OSU Smash</h2>
                                     <ul>
-                                        <li>To Be Determined</li>
-                                        <li>CBEC 130 - 151 W Woodruff Ave</li>
+                                        <li>@Html.Link("Time & Room", "https://docs.google.com/spreadsheets/d/1ATMxvFGqjfeZvLc79_ZHx-YaCSkjARYJ71Hue-zQxos/edit#gid=61303549")</li>
                                         <li>Super Smash Bros for Wii U & Melee</li>
                                         <li></li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                                     @Html.DivButtonLink("Event Page", "https://www.facebook.com/events/912188162152423/")
+                                    @Html.DivButtonLink("Full list", "https://docs.google.com/spreadsheets/d/1ATMxvFGqjfeZvLc79_ZHx-YaCSkjARYJ71Hue-zQxos/edit#gid=61303549")
                                 </div>
                             </div>
+
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                    @Html.Image("Logos/smash_bros_logo.png", "Smash", new string[] { "width:100%" })
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <h2>September 2016 - Smash Monthly</h2>
+                                    <ul>
+                                        <li>September 3rd - 9am to 11pm</li>
+                                        <li>Ohio Union - Cartoon Room</li>
+                                        <li>Smash Bros</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                    @Html.Image("Logos/esi_logo_leaf_large.png", "ESI Logo", new string[] { "width:100%" })
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <h2>Autumn Semester LAN</h2>
+                                    <ul>
+                                        <li>September 10th - 9am to 11pm</li>
+                                        <li>Ohio Union - Preformance Hall</li>
+                                        <li>All the games!</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                    @Html.Image("Logos/smash_bros_logo.png", "Smash", new string[] { "width:100%" })
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <h2>October 2016 - Smash Monthly</h2>
+                                    <ul>
+                                        <li>October 8th - 9am to 11pm</li>
+                                        <li>Ohio Union - Cartoon Room</li>
+                                        <li>Smash Bros</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                    @Html.Image("Logos/esi_logo_leaf_large.png", "ESI Logo", new string[] { "width:100%" })
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <h2>Blizzard Event</h2>
+                                    <ul>
+                                        <li>September 3rd - 9am to 11pm</li>
+                                        <li>Ohio Union - Great Hall</li>
+                                        <li>All the Blizzard games! (Diablo 2 &Aacute; StarCraft Broodwar ONLY Kappa)</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                    @Html.Image("Logos/smash_bros_logo.png", "Smash", new string[] { "width:100%" })
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <h2>November 2016 - Smash Monthly</h2>
+                                    <ul>
+                                        <li>November 5th - 9am to 11pm</li>
+                                        <li>Ohio Union - Cartoon Room</li>
+                                        <li>Smash Bros</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                    @Html.Image("Logos/csgo_logo_transparent.png", "CS:GO", new string[] { "width:100%" })
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <h2>CS:GO Event</h2>
+                                    <ul>
+                                        <li>November 5th - 9am to 11pm</li>
+                                        <li>Ohio Union - Great Hall</li>
+                                        <li>CS:GO</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                </div>
+                            </div>
+
 
                             <div class="row">
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
@@ -70,7 +161,7 @@
                     </div>
                 </div>
             </div>
-
+            <!--
             <div class="col-lg-4 col-md-4 col-sm-4  col-xs-12 marginz-bottom">
                 <div class="title-text white-box-boarder">
                     <h1>Schedule</h1>
@@ -87,17 +178,20 @@
                     </table>
                 </div>
             </div>
+            -->
         </div>
     </div>
 </section>
 
 <section class="events">
-    <div class="background-color-white container-fluid">
-        <div class="container row center-block marginz-bottom">
+    <div class="background-color-white">
+        <div class="container row container-fluid marginz-bottom">
             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <!--
                 <div class="title-text white-box-boarder">
                     <h1>Past Events</h1>
                 </div>
+                -->
                 <div class="content-box">
                     <div class="row">
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
@@ -172,8 +266,8 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="marginz-horizontal">
-                        <p>NOTICE: The site has been recently updated the remained of past events will be added shortly. We apologize for the inconvenience however a text version of everything we have done is available <a href="https://docs.google.com/document/d/1AlUO06uYugQtkGaXMrWRm-E-SQ8k9VaNDGmNF4mO4zQ/edit?usp=sharing">here</a></p>
+                    <div class="marginz-horizontal text-center">
+                        <p>Older events <a href="https://docs.google.com/document/d/1AlUO06uYugQtkGaXMrWRm-E-SQ8k9VaNDGmNF4mO4zQ/edit?usp=sharing">here</a></p>
                     </div>
                 </div>
             </div>
